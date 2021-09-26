@@ -89,7 +89,7 @@ p.parksDesc {
   display: flex;
   padding: 5px;
   margin: 5px;
-  background-color: gainsboro;
+  background-color: (#407a66);
 }
 .parksDesc {
   font-size: 12px;
