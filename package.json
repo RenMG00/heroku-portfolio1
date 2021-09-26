@@ -1,0 +1,27 @@
+{
+  "name": "heroku-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Deploy",
+  "main": "server.js",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "expo-cli": "^4.11.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "mongoose": "^6.0.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7"
+  },
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.15.1"
+  }
+}
