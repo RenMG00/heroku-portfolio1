@@ -87,7 +87,7 @@ p.parksDesc {
 }
 .park {
   display: flex;
-  padding: 5px;
+  padding: 8px;
   margin: 5px;
   background-color:rgb(6, 105, 72, 0.2);
 }
@@ -102,8 +102,8 @@ p.parksDesc {
   margin: 5px;
 }
 .parksImg {
-  width: 600px;
-  height: 300px;
+  width: 700px;
+  height: 500px;
 }
 .singlePark > p  {
   font-size: 8px;
