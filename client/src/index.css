@@ -89,7 +89,7 @@ p.parksDesc {
   display: flex;
   padding: 5px;
   margin: 5px;
-  background-color: rgb(39, 128, 91)
+  background-color:rgb(6, 105, 72, 0.3);
 }
 .parksDesc {
   font-size: 12px;
