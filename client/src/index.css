@@ -91,6 +91,9 @@ p.parksDesc {
   margin: 5px;
   background-color:rgb(6, 105, 72, 0.2);
 }
+.parkDiv {
+  background-color:rgb(6, 105, 72, 0.2);
+}
 .parksDesc {
   font-size: 12px;
   width: 550px;
@@ -107,6 +110,7 @@ p.parksDesc {
 }
 .singlePark > p  {
   font-size: 8px;
+  background-color:rgb(6, 105, 72, 0.2);
 }
 p.parksDesc {
   display: inline-block;
