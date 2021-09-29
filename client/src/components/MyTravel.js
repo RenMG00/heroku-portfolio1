@@ -41,7 +41,7 @@ export default function MyTravel(props) {
         <h2>Name: {location.fullName}</h2>
         <p className="parksDesc">Description: {location.description}</p>
         <img className="parksImage" src={location.images} />
-        <p>Location: {location.addresses}</p>
+        <p className="myTravelLocation">{location.addresses}</p>
         <a href={location.url} className="travelUrl">{location.url}</a> 
         <p>{location.addresses.city} {location.addresses.stateCode} {location.addresses.postalCode}</p>
         <button onClick={() => deleteLocation(location._id)} className="deleteButton">Delete</button>

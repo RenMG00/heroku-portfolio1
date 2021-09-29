@@ -12,7 +12,7 @@ export default function OnePark(props) {
                 <p>No Image available</p>
             }</div>
             <div>
-            <Link to={`/parks/${props.id}`} ><h1>{props.fullName}</h1></Link>
+            <Link to={`/parks/${props.id}`} ><h1 className="parkTitle">{props.fullName}</h1></Link>
             </div>
         </div>
     )

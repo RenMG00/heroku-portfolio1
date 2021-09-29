@@ -60,7 +60,7 @@ export default function Parks(props) {
                     <h2 className="parksName">{park.data[0].fullName}</h2>
                     <p className="parksDescription">{park.data[0].description}</p>
                     <img className="parksImg" src={park.data[0].images[0].url} />
-                    <p>Location: {park.data[0].addresses[0].line1}</p>
+                    <p>{park.data[0].addresses[0].line1}</p>
                     <p>{park.data[0].addresses[0].line2}</p>
                     <p>{park.data[0].addresses[0].line3}</p>
                     <p className="address">{park.data[0].addresses[0].city} {park.data[0].addresses[0].stateCode} {park.data[0].addresses[0].postalCode}</p>

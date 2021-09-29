@@ -52,8 +52,12 @@ p.parksDesc {
 }
 .travelUrl {
   color: white;
+  margin: 5px;
+  font-size: 10px;
 }
-
+.myTravelLocation {
+  margin: 10px;
+}
 .logoutButton {
   background-image: url("https://wallpaperaccess.com/full/1516567.jpg");
   padding: 5px;
@@ -67,32 +71,39 @@ p.parksDesc {
   width: 400px;
   margin: 15px;
   padding: 15px;
-  border: 2px solid rgb(8, 170, 116);
+  border: 2px solid rgb(65, 231, 176);
   color: whitesmoke;
   align-items: center;
   text-align: center;
   justify-content: center;
+  background:rgb(6, 105, 72, 0.7);
 }
 .parks {
   width: 625px;
   margin-left: 450px;
-  margin-top: 55px;
+  margin-top: 100px;
   padding: 15px;
   border: 2px solid rgb(11, 172, 118);
+  background:#023823b3;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center
+  text-align: center;
+  
+}
+.parkTitle {
+  padding-top: 25px;
 }
 .park {
   display: flex;
   padding: 8px;
   margin: 5px;
-  background:rgb(6, 105, 72, 0.2);
+  background:rgb(6, 105, 72, 0.7);
+  border: 1px solid white;
 }
 .parksDiv {
-  background:rgb(6, 105, 72, 0.2);
+  background:rgb(6, 105, 72, 0.7);
 }
 .parksDesc {
   font-size: 12px;
@@ -110,7 +121,6 @@ p.parksDesc {
 }
 .singlePark > p  {
   font-size: 8px;
-  background:rgb(6, 105, 72, 0.5);
 }
 p.parksDesc {
   display: inline-block;
@@ -120,7 +130,8 @@ p.parksDesc {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  padding: 10px;
+  padding: 15px;
+  width: 500px;
 }
 .parksImage {
   height: 100px;
@@ -131,7 +142,7 @@ p.parksDesc {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center
+  text-align: center;
 }
 .futureTrip {
   display: flex;
@@ -145,7 +156,10 @@ p.parksDesc {
   font-size: 8px;
 }
 a {
-  color: whitesmoke;
+  color: whitesmoke;  
+  background-image: url("https://wallpaperaccess.com/full/1516567.jpg");
+  padding: 5px;
+  margin: 5px;
 }
 .deleteButton {
   margin-top: 25px;
@@ -162,8 +176,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .auth-title {
@@ -172,13 +185,12 @@ a {
 }
 
 .auth-container > p {
-  margin: 16px;
   text-decoration: underline;
 }
 
 .auth-form {
   border: 1px solid mintcream;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   background-color: rgb(6, 105, 72);
   display: flex;
@@ -192,7 +204,7 @@ a {
 }
 
 .auth-container > form > button {
-  margin: 16px 8px;
+  margin: 14px 8px;
   padding: 8px;
   border-radius: 4px;
 }
@@ -204,11 +216,6 @@ a {
     padding-top: 10px;
 }
 
-.park {
-  border: 1px solid rgb(8, 170, 116);
-}
-
-
 @media only screen and (max-width: 1130px) { 
 
   /* body {
@@ -217,9 +224,9 @@ a {
     height: 100%;
 } */
   .parks {
-    margin-top: 150px;
-    margin-left: 100px;
-    padding: 50px;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 30px;
     width: 420px;
     box-shadow: 2px 2px rgb(6, 105, 72);
     display: flex;
@@ -249,7 +256,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center
+    text-align: center;
   }
 
 }
